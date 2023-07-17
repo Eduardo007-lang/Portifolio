@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <!-- Meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- title -->
-    <title>Eduardo | Portifolio</title>
-    <!--CSS-->
-    <link rel="stylesheet" href="CSS/extends.css">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<!-- Meta tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- title -->
+<title>Eduardo | Portifolio</title>
+<!--CSS-->
+<link rel="stylesheet" href="CSS/extends.css">
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <nav class="navbar">
         <div class="navbar__content max-width mb-0">
             <a href="/">
-                <img src="assets/logo.svg" alt="Eduardo Pereira" >
+                <img src="assets/logo-E.png" width="40">
             </a>
             <ul class="navbar__links">
                 <li><a href="#header">Inicio</a></li>
@@ -31,9 +32,12 @@
 
     <header id="header" class="max-width">
         <div class="header__left">
-            <h1>Ola, Sou Eduardo Pereira Desenvolvedor FullStack</h1>
+            <h1>Olá, Sou Eduardo Pereira Desenvolvedor FullStack</h1>
             <p>
-          
+                Desenvolvedor web full-stack com vasta experiência em desenvolvimento
+                de aplicações web escaláveis e responsivas. Sou apaixonado por criar
+                soluções tecnológicas que resolvem problemas reais e que agregam valor
+                aos usuários.
             </p>
             <a href="#about" class="btn btn-primary">Saiba Mais!</a>
         </div>
@@ -65,12 +69,133 @@
                 Desenvolvedor FullStack apaixonado por tecnologia e soluções criativas
             </h3>
             <p>
-                Olá, Sou um desenvolvedor de software com 2 anos de experiência, especializado em aplicação web. Durante minha carreira, trabalhei em diferentes projetos e empresas como desenvolvedor júnior, aprimorando minhas habilidades em várias tecnologias e ferramentas.
-                Tenho conhecimento em Angular, Bootstrap, HTML, CSS, JavaScript, TypeScript, PHP, Firebase, MySQL, PostgreSQL e utilizo o Figma para design de aplicativos. Além disso, possuo experiência com sistemas de controle de versão, como Git e GitHub, e estou familiarizado com a arquitetura MVC.
+                Olá, Sou um desenvolvedor de software com 2 anos de experiência, especializado em aplicação web. Durante
+                minha carreira, trabalhei em diferentes projetos e empresas como desenvolvedor júnior, aprimorando
+                minhas habilidades em várias tecnologias e ferramentas.
+                Tenho conhecimento em Angular, Bootstrap, HTML, CSS, JavaScript, TypeScript, PHP, Firebase, MySQL,
+                PostgreSQL e utilizo o Figma para design de aplicativos. Além disso, possuo experiência com sistemas de
+                controle de versão, como Git e GitHub, e estou familiarizado com a arquitetura MVC.
             </p>
         </div>
     </section>
-    
-    <script src="scripts/index.js"></script>
+
+    <section id="skills" class="skills">
+        <div class="skills__content max-width">
+          <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
+          <p class="description">
+            Descubra as habilidades e ferramentas que domino e que me permitem
+            criar soluções criativas e funcionais para meus clientes.
+          </p>
+          <ul>
+            <li class="skills__item">
+              <div class="image-container">
+                <img src="assets/notebook.png" alt="Desenvolvimento Web" />
+              </div>
+              <h3>Desenvolvimento Web</h3>
+              <p>
+                Experiência em desenvolvimento fullstack com foco em tecnologias
+                modernas.
+              </p>
+            </li>
+            <li class="skills__item">
+              <div class="image-container">
+                <img src="assets/colors.png" alt="Web Design" />
+              </div>
+              <h3>Web Design</h3>
+              <p>
+                Habilidade em criar layouts modernos e responsivos, com foco na
+                experiência do usuário.
+              </p>
+            </li>
+            <li class="skills__item">
+              <div class="image-container">
+                <img src="assets/phone.png" alt="UX/UI Design" />
+              </div>
+              <h3>UX/UI Design</h3>
+              <p>
+                Conhecimentos em design de interface e experiência do usuário
+                visualmente atraentes e intuitivas.
+              </p>
+            </li>
+            <li class="skills__item">
+              <div class="image-container">
+                <img src="assets/files.png" alt="Gerenciamentos de versões" />
+              </div>
+              <h3>Gerenciamentos de versões</h3>
+              <p>
+                Experiência em ferramentas de gerenciamento de versão para
+                controle de projetos.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="projects max-width">
+        <div class="projects__content">
+            <h2 class="secondary-title">Projetos em Destaques</h2>
+            <p>
+                De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos
+                meus trabalhos mais recentes
+            </p>
+        </div>
+        <ul>
+            <li>
+                <div class="image">
+                    <img src="assets/task-manager.png" alt="Gerenciamento de tarefas">
+                </div>
+               <div class="projects__info">
+                <h3 class="tertiary-title">
+                    Sistema de gerenciamento de tarefas DEF
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Maiores nam odio vitae recusandae perspiciatis voluptate sunt 
+                    quisquam officia, itaque voluptas non commodi quam animi 
+                    rerum quos, sit autem corrupti laboriosam.
+                </p>
+                <a href="#">Leia mais &rarr; </a>
+               </div>
+            </li>
+            <li class="projects__reversed-list">
+                <div class="image">
+                    <img src="assets/ecommerce.png" alt="ecommerce">
+                </div>
+               <div class="projects__info">
+                  <h3 class="tertiary-title">
+                      Desenvolvimento de Loja Virtual MeuSofazim.com
+                  </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Maiores nam odio vitae recusandae perspiciatis voluptate sunt 
+                    quisquam officia, itaque voluptas non commodi quam animi 
+                    rerum quos, sit autem corrupti laboriosam.
+                </p>
+                <a href="#">Leia mais &rarr; </a>
+               </div>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="assets/delivery.png" alt="delivery">
+                </div>
+               <div class="projects__info">
+                <h3 class="tertiary-title">
+                    App de delivery e Dashboard DeliveryJa!
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Maiores nam odio vitae recusandae perspiciatis voluptate sunt 
+                    quisquam officia, itaque voluptas non commodi quam animi 
+                    rerum quos, sit autem corrupti laboriosam.
+                </p>
+                <a href="#">Leia mais &rarr; </a>
+               </div>
+            </li>
+        </ul>
+      </section>
+
+    <script src="scripts/index.js" class="projects max-width">
+    </script>
 </body>
+
 </html>
