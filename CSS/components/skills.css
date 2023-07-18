@@ -37,3 +37,21 @@
     font-weight: 500;
     margin: 2rem 0 1rem;
   }
+
+  .customer-logos {
+    width: 100%;
+    
+  }
+  
+  .slide {
+
+    text-align: center;
+    padding: 10px;
+  }
+
+  .slide img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+  }

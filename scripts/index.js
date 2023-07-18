@@ -14,3 +14,29 @@ window.addEventListener('scroll', function(){
     }
     return navbar.classList.remove('active');
 })
+
+
+$(document).ready(function() {
+    $(".customer-logos").slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      responsive: [
+        {
+          breakpoint: 768, // Tamanho de tela onde o slider terá apenas 2 slides
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480, // Tamanho de tela onde o slider terá apenas 1 slide
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        }
+      ]
+    });
+  });
+  
